@@ -71,4 +71,9 @@ waitUntil {[TRG1_1, "", "> 0"] call dzn_fnc_ccPlayers };
 	waitUntil { sleep 10; [TRG_2, "", "> 3"] call dzn_fnc_ccPlayers };
 	ReinforcementCalled = true;
 	publicVariable "ReinforcementCalled"
+	
+	// Add timeout for objective defense after reinforcement called
+	sleep 900;
+	ObjectiveHeld = true;
+	publicVariable "ObjectiveHeld";
 };
