@@ -10,7 +10,7 @@ PlayersBaseTrigger = if (!isNil "baseTrg") then { baseTrg } else { "" };
 /*
  * Default sleep interval between Mission Conditions checks (seconds)
 */
-tSF_MissionCondition_DefaultCheckTimer 			= 15;
+tSF_MissionCondition_DefaultCheckTimer 			= 30;
 
 // If you're Lim~, then you may need this. Uncomment to use.
 // if (isNil "ts_tasks") then { ts_tasks = 0 };
@@ -48,5 +48,5 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", {[ TRG_2, "east", "", "< 1"] call dzn_fnc_ccUnits && [TRG1_1, "", "> 0"] call dzn_fnc_ccPlayers  && sleep 900}, "All objectives done" ];
+MissionCondition1 = [ "WIN", {[ TRG_2, "east", "", "< 1"] call dzn_fnc_ccUnits && [TRG1_1, "", "> 0"] call dzn_fnc_ccPlayers && !isNil "ObjectiveHeld" }, "All objectives done" ];
 MissionCondition2 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
