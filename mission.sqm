@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=40;
+		nextID=48;
 	};
 	class Camera
 	{
-		pos[]={12298.168,424.85156,6988.5054};
-		dir[]={-0.20550245,-0.15820974,0.96578568};
-		up[]={-0.032927245,0.98740554,0.1547458};
-		aside[]={0.97810483,1.0780059e-007,0.20812327};
+		pos[]={11938.049,129.80382,6916.2451};
+		dir[]={-0.066129446,-0.041557115,0.99695539};
+		up[]={-0.0027508764,0.99913514,0.041471146};
+		aside[]={0.99781597,1.7983257e-007,0.066186644};
 	};
 };
 binarizationWanted=0;
@@ -225,6 +225,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -270,25 +289,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -1851,7 +1851,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12266.493,28.198271,6269.6348};
-				angles[]={-0,6.14046,0};
+				angles[]={0,6.14046,0};
 			};
 			side="Empty";
 			class Attributes
@@ -3159,7 +3159,7 @@ class Mission
 						{
 							dataType="Trigger";
 							position[]={11439.45,35.342396,8258.8232};
-							angle=3.9108043;
+							angle=3.910804;
 							class Attributes
 							{
 								sizeA=275.98608;
@@ -3292,7 +3292,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11652.895,26.120745,8164.1782};
-				angles[]={-0,2.5185935,6.256525};
+				angles[]={0,2.5185935,6.256525};
 			};
 			side="Empty";
 			flags=4;
@@ -3423,7 +3423,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11651.886,28.913033,8161.8149};
-				angles[]={-0,5.9171972,6.256525};
+				angles[]={0,5.9171972,6.256525};
 			};
 			side="Empty";
 			flags=4;

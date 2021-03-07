@@ -63,7 +63,7 @@
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["FULL","SAFE","YELLOW","WEDGE"]
+	,["NORMAL","SAFE","YELLOW","WEDGE"]
 	 /* (OPTIONAL) Activation condition */
 	,{ [ TRG_2, "east", "", "< 3"] call dzn_fnc_ccUnits }
 ]

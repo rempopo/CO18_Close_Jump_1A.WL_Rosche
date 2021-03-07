@@ -118,7 +118,7 @@ kit_sov_random = [
 	,"kit_sov_mm"
 ];
 kit_sov_sl = [
-	["<EQUIPEMENT >>  ","cwr3_o_uniform_m1982_lacers","cwr3_o_vest_harness_black_officer","RD_54_69_R148","panama_afg2",""],
+	["<EQUIPEMENT >>  ","cwr3_o_uniform_m1982_lacers","cwr3_o_vest_harness_black_officer","RD_54_69_R148","cwr3_o_headgear_ssh68",""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74_GL","CUP_30Rnd_545x39_AK_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -128,7 +128,7 @@ kit_sov_sl = [
 	["<BACKPACK ITEMS >> ",[["CUP_1Rnd_HE_GP25_M",10],["CUP_1Rnd_SmokeRed_GP25_M",10]]]
 ];
 kit_sov_jtac = [
-	["<EQUIPEMENT >>  ","cwr3_o_uniform_m1982_lacers","cwr3_o_vest_harness_black_officer","RD_54_69_R148","panama_afg2",""],
+	["<EQUIPEMENT >>  ","cwr3_o_uniform_m1982_lacers","cwr3_o_vest_harness_black_officer","RD_54_69_R148","cwr3_o_headgear_ssh68",""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74_GL","CUP_30Rnd_545x39_AK_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
