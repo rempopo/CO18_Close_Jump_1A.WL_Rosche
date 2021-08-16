@@ -1,0 +1,15 @@
+"####### tSF File Sweeper Engaged #######" 
+Mission directory:     C:\Users\Кабан\Documents\Arma 3 - Other Profiles\Ka6aH\mpmissions\CO18_Close_Jump_1A.WL_Rosche\ 
+Mission fodler name:   CO18_Close_Jump_1A 
+Removing tSF Helpers 
+Removing DynAI Helpers 
+Removing unused tSF Modules 
+    Folder is not used: Removing AirborneSupport 
+    Folder is not used: Removing ArtillerySupport 
+    Folder is not used: Removing Conversations 
+    Folder is not used: Removing EditorRadioSettings 
+    Folder is not used: Removing EditorUnitBehavior 
+    Folder is not used: Removing EditorVehicleCrew 
+    Folder is not used: Removing Interactives 
+    Folder is not used: Removing POM 
+Done! 
